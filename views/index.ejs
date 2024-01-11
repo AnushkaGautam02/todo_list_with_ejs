@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>todo</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Todo List</h1>
+    </div>
+    <div class="box">
+      
+        <% for(let i=0; i< ejes.length; i++){  %>
+          <div class="item">
+            <input type="checkbox" name="ch" id="">
+            <p><%= ejes[i] %></p>
+          </div>
+        <% } %>
+
+      
+      
+      <form action="/" method="post">
+        <input type="text" name="em1" id="td" placeholder="Enter todo item">
+        <button type="submit">+</button>
+      </form>
+    </div>
+    
+  </body>
+</html>
